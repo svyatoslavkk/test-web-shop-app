@@ -1,0 +1,10 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.products-not-found {
+  text-align: center;
+  padding: 48px 0;
+}

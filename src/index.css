@@ -1,0 +1,40 @@
+:root {
+  --antd-font-family: "Nunito", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body,
+.ant-typography,
+.ant-btn,
+.ant-input,
+.ant-select,
+.ant-menu,
+.ant-table,
+.ant-modal,
+.ant-dropdown,
+.ant-card,
+.ant-form,
+.ant-pagination {
+  font-family: "Nunito", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
